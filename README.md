@@ -7,19 +7,19 @@ This Generator creates an ID-Card with photo. This uses OpenCV for capturing ima
 OpenCV
 For installation (Win)
   
-  pip install opencv-python
+  `pip install opencv-python`
 
 or for conda,
   
-  conda install -c conda-forge opencv
+  `conda install -c conda-forge opencv`
 
 Pillow
 For installation (Win)
   
-  pip install Pillow
+  `pip install Pillow`
 
 or for conda,
   
-  conda install -c anaconda pillow
+  `conda install -c anaconda pillow`
 
 You will also need a logo id.PNG(logo of any organization) which should be a horizontal image resizable to 500*90
