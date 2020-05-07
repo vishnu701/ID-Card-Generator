@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[58]:
-
 
 from PIL import Image, ImageDraw, ImageFont
 img = Image.open('C:/Users/user/Documents/Untitled Folder 1/profile.PNG', 'r')
@@ -46,16 +41,4 @@ background.paste(image1,offsettxt)
 background.paste(image2,offsetid)
 background.paste(lgimg,offsetlogo)
 background.save(name+'.png')
-
-
-# In[8]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
