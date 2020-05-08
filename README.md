@@ -1,6 +1,6 @@
 # ID-Card-Generator
 
-This Generator creates an ID-Card with photo. This uses OpenCV for capturing images and Pillow for additional graphics 
+This Generator creates an ID-Card including photo of the user using python. This uses OpenCV for capturing images and Pillow for additional graphics 
 
 ## Dependencies
 
