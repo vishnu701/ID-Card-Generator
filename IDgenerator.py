@@ -1,6 +1,6 @@
-
+#importing necessary libraries
 from PIL import Image, ImageDraw, ImageFont
-img = Image.open('C:/Users/user/Documents/Untitled Folder 1/profile.PNG', 'r')
+img = Image.open('profile.PNG', 'r')
 img=img.resize((128,128))
 
 #background image(white)
@@ -30,7 +30,7 @@ d.text((10,85), "Phone Number:", font=fnt, fill=(0, 0, 255))
 d.text((130,85), phn, font=fnt, fill=(0, 0, 0))
 
 #for logo
-lgimg=Image.open('C:/Users/user/Documents/Untitled Folder 1/logo id.PNG', 'r')
+lgimg=Image.open('logo id.PNG', 'r')
 lgimg=lgimg.resize((500,90))
 offsetimg = (10, 130)
 offsettxt = (150,130)
